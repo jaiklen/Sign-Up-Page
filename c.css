@@ -1,0 +1,77 @@
+
+  img{
+    border: solid 2px black;
+    border-radius: 50%;
+  }
+.count{
+  opacity: 0.8;
+    text-align:center;
+    width: 30%;
+    height: 50%;
+    border-style: double;
+    background-color : black;
+    border-color: crimson;
+    border-radius: 2cm;
+    color: rgb(6, 160, 6);
+    padding: 2%;
+    margin: auto;
+    animation: 10000ms ease-in-out infinite color-change;
+}
+input[type=text], input[type=password],input[type=date],input[type=email] {
+  width: 50%;
+  padding: 2%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+body{
+  height: 10%;
+  width: 80%;
+  background-image: linear-gradient(lightcyan,lightsalmon,lightcyan); 
+}
+input[type=submit] {
+  background-color: #4CAF50 ;
+  color: white;
+  opacity: 0.6;
+  width: 50%;
+  
+  padding: 2%;
+  border: none;
+  cursor: pointer;
+  
+}
+.count:hover {
+  opacity: 1;
+  background-color : blue;
+}
+form{
+  color:red;
+}
+input[type=submit]:hover {
+  opacity: 1;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+@keyframes color-change {
+  0% {
+    background-color:lightblue;
+  }
+  20% {
+    background-color: rgb(238, 175, 175);
+  }
+  40% {
+    background-color: lightcyan;
+  }
+  60% {
+    background-color: lightskyblue;
+  }
+  80% {
+    background-color: lightsteelblue;
+  }
+  100% {
+    background-color: lightsalmon;
+  }
+}
